@@ -1,2 +1,231 @@
-# bupbibup
-for bup
+
+[A Question For You ❤️.html](https://github.com/user-attachments/files/23096181/A.Question.For.You.html)
+<!DOCTYPE html>
+<!-- saved from url=(0054)file:///C:/Users/trang/Downloads/reaction_website.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Question For You ❤️</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #FFE5EC 0%, #FFF0F5 50%, #E0F4FF 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjIwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZGVmcz48cGF0dGVybiBpZD0iY2F0cyIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgd2lkdGg9IjIwMCIgaGVpZ2h0PSIyMDAiPjxjaXJjbGUgY3g9IjMwIiBjeT0iMzAiIHI9IjMiIGZpbGw9IiNGRkI2QzEiIG9wYWNpdHk9IjAuMyIvPjxjaXJjbGUgY3g9IjkwIiBjeT0iNzAiIHI9IjQiIGZpbGw9IiNGRkRBQjkiIG9wYWNpdHk9IjAuMyIvPjxjaXJjbGUgY3g9IjE1MCIgY3k9IjQwIiByPSIzIiBmaWxsPSIjQTFDNEZEIiBvcGFjaXR5PSIwLjMiLz48Y2lyY2xlIGN4PSI2MCIgY3k9IjEyMCIgcj0iMiIgZmlsbD0iI0ZGRTVFQyIgb3BhY2l0eT0iMC4zIi8+PGNpcmNsZSBjeD0iMTIwIiBjeT0iMTYwIiByPSI0IiBmaWxsPSIjRkZCNkMxIiBvcGFjaXR5PSIwLjMiLz48Y2lyY2xlIGN4PSIxODAiIGN5PSIxMzAiIHI9IjMiIGZpbGw9IiNBMUM0RkQiIG9wYWNpdHk9IjAuMyIvPjwvcGF0dGVybj48L2RlZnM+PHJlY3Qgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNjYXRzKSIvPjwvc3ZnPg==');
+            opacity: 0.4;
+            z-index: 0;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 50px 40px 40px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 20px 60px rgba(255, 182, 193, 0.3);
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            border: 3px solid #FFE5EC;
+        }
+
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 4px solid #FFB6C1;
+            margin: -80px auto 20px;
+            background: white;
+            padding: 5px;
+            box-shadow: 0 10px 30px rgba(255, 182, 193, 0.4);
+        }
+
+        .avatar img {
+            width: 100%;
+            height: 100%;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        h1 {
+            color: #FF6B9D;
+            margin-bottom: 25px;
+            font-size: 28px;
+            text-shadow: 2px 2px 4px rgba(255, 182, 193, 0.2);
+        }
+
+        .question {
+            font-size: 20px;
+            color: #555;
+            margin-bottom: 35px;
+            line-height: 1.6;
+            font-weight: 500;
+        }
+
+        .buttons {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 15px 40px;
+            font-size: 18px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .yes-btn {
+            background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);
+            color: white;
+            box-shadow: 0 5px 15px rgba(255, 105, 180, 0.3);
+        }
+
+        .yes-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(255, 105, 180, 0.4);
+        }
+
+        .no-btn {
+            background: linear-gradient(135deg, #E0F4FF 0%, #A1C4FD 100%);
+            color: #555;
+            box-shadow: 0 5px 15px rgba(161, 196, 253, 0.3);
+        }
+
+        .no-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(161, 196, 253, 0.4);
+        }
+
+        .reaction {
+            display: none;
+            animation: fadeIn 0.5s ease;
+        }
+
+        .reaction.show {
+            display: block;
+        }
+
+        .reaction-image {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 10px 30px rgba(255, 182, 193, 0.3);
+        }
+
+        .reaction-text {
+            font-size: 24px;
+            color: #FF6B9D;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .flower {
+            position: absolute;
+            font-size: 24px;
+            opacity: 0.6;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-20px); }
+        }
+
+        .flower:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
+        .flower:nth-child(2) { top: 20%; right: 15%; animation-delay: 0.5s; }
+        .flower:nth-child(3) { bottom: 15%; left: 15%; animation-delay: 1s; }
+        .flower:nth-child(4) { bottom: 20%; right: 10%; animation-delay: 1.5s; }
+    </style>
+</head>
+<body>
+    <div class="flower">🌸</div>
+    <div class="flower">🌼</div>
+    <div class="flower">🌺</div>
+    <div class="flower">🌷</div>
+
+    <div class="container">
+        <div class="avatar">
+            <img src="./A Question For You ❤️_files/d48a21bd93788088d90ee2868ddb52f3.jpg" alt="Avatar" id="avatarImg">
+        </div>
+
+        <div id="questionSection">
+            <h1>hi bupbibup</h1>
+            <p class="question">Do you love me?</p>
+            <div class="buttons">
+                <button class="yes-btn" onclick="showReaction(&#39;yes&#39;)">Yes!</button>
+                <button class="no-btn" onclick="showReaction(&#39;no&#39;)">No</button>
+            </div>
+        </div>
+
+        <div id="yesReaction" class="reaction">
+            <img src="./A Question For You ❤️_files/0c0f6d16e1c4c561171e351fdf2183c6.jpg" alt="Happy reaction" class="reaction-image" id="yesImg">
+            <p class="reaction-text">awwwwwwwwww</p>
+        </div>
+
+        <div id="noReaction" class="reaction">
+            <img src="./A Question For You ❤️_files/9c93a4e32df40b20373be921435172c6.jpg" alt="Sad reaction" class="reaction-image" id="noImg">
+            <p class="reaction-text">wrong!</p>
+        </div>
+    </div>
+
+    <script>
+        function showReaction(answer) {
+            const questionSection = document.getElementById('questionSection');
+            const yesReaction = document.getElementById('yesReaction');
+            const noReaction = document.getElementById('noReaction');
+
+            questionSection.classList.add('hidden');
+
+            if (answer === 'yes') {
+                yesReaction.classList.add('show');
+            } else {
+                noReaction.classList.add('show');
+            }
+        }
+    </script>
+
+</body></html>
